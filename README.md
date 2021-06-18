@@ -25,7 +25,7 @@
 <p align="center"><strong>Name</strong><strong>:</strong> Emamul Hassan  </p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1731250642</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:emamul.hassan@northsouth.edu">emamul.hassan@northsouth.edu</a></p>
-<p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/KaziRuholKabir/CSE482LAB">https://github.com/KaziRuholKabir/CSE482LAB</a></p>
+
 <p align="center"><strong>Date Prepared</strong><strong>: </strong>15.05.2021</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
