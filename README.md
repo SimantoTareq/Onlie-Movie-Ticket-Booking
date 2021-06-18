@@ -12,13 +12,15 @@
 <p align="center"><strong>Course No</strong>: CSE 482 <strong>Sec</strong><strong>:</strong> 5</p>
 <p align="center"><strong>Faculty</strong>: Dr. Muhammad Arifur Rahman</p>
 <p align="center"><strong><u>Member 1</u></strong><u>:</u></p>
-<p align="center"><strong>Name</strong><strong>:</strong> Kazi Ruhol Kabir Moahhed </p>
-<p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721103642</p>
-<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:kazi.moahhed@northsouth.edu">kazi.moahhed@northsouth.edu</a></p>
-<p align="center"><strong><u>Member 2</u></strong><strong><u>:</u></strong></p>
 <p align="center"><strong>Name</strong><strong>:</strong> MD Tareq Hossain </p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1712390642</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:tareq.hossain@northsouth.edu">tareq.hossain@northsouth.edu</a></p>
+<p align="center"><strong><u>Member 2</u></strong><strong><u>:</u></strong></p>
+
+<p align="center"><strong>Name</strong><strong>:</strong> Kazi Ruhol Kabir Moahhed </p>
+<p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721103642</p>
+<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:kazi.moahhed@northsouth.edu">kazi.moahhed@northsouth.edu</a></p>
+
 <p align="center"><strong><u>Member 3</u></strong><strong><u>:</u></strong></p>
 <p align="center"><strong>Name</strong><strong>:</strong> Emamul Hassan  </p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1731250642</p>
