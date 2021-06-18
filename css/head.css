@@ -1,0 +1,64 @@
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75));
+    background-size: cover;
+    background-position: center;
+    font-size: larger;
+    font-weight: 400;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.Banner {
+   height: 150px;
+   width: 1000px;
+   transition: width 2s;
+   -webkit-transition: width 2s;
+   -webkit-animation-name: tilt; 
+    -webkit-animation-duration: 4s; 
+    animation-name: tilt;
+    animation-duration: 4s;
+    border-radius: 25px;
+    border: solid rgb(252, 222, 167);
+}
+
+@-webkit-keyframes tilt {
+    from {transform: rotate(4deg);}
+    to {transform: rotate(0deg);}
+}
+
+@keyframes tilt {
+    from {transform: rotate(4deg);}
+    to {transform: rotate(0deg);}
+}
+
+.Banner:hover {
+    width: 1300px;
+}
+
+a:link {
+    color: rgb(144, 215, 233);
+}
+
+a:hover {
+    color: rgb(243, 207, 139);
+}
+
+a:active {
+    color: rgb(24, 182, 24);
+}
+
+nav {
+    word-spacing: 200px;
+    font-family: fantasy;
+    font-size: x-large;
+    background-color: #CCCCCC;
+    border: 3px solid;
+    letter-spacing: 3px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

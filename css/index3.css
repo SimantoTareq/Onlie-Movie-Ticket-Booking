@@ -1,0 +1,176 @@
+html {
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.Music {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@-webkit-keyframes tilt {
+    from {transform: rotate(4deg);}
+    to {transform: rotate(0deg);}
+}
+
+@keyframes tilt {
+    from {transform: rotate(4deg);}
+    to {transform: rotate(0deg);}
+}
+
+
+
+a:link {
+    color: rgb(241, 168, 241);
+}
+
+a:hover {
+    color: rgb(219, 255, 160);
+}
+
+a:active {
+    color: #73f173;
+}
+
+
+
+.Heading1 {
+    text-transform: Uppercase;
+    margin-bottom: .5em;
+    font-family: 'Rubik', sans-serif;
+    font-size: 6rem;
+    color: #364757;
+
+    position: relative;
+background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+Heading1:before {
+    z-index: -1;
+    text-shadow: -0.001em -0.001em 1px rgba(255,255,255,.15)
+}
+    
+Heading1:after {
+    z-index: -2;
+    text-shadow: 10px 10px 10px rgba(0,0,0,.5), 20px 20px 20px rgba(0,0,0,.4), 30px 30px 30px rgba(0,0,0,.1);
+    mix-blend-mode: multiply; }
+
+
+.Heading2 {
+    clear: left;
+    font-weight: 600;
+    font-size: 250%;
+    text-shadow: 0 0 3px #eee6b4, 0 0 5px #FFDF00;
+    font-family: sans-serif;
+    color: rgb(206, 238, 146);
+ 
+}
+
+
+
+footer {
+    font-weight: bold;
+    color: white;
+}
+
+hr {
+    background-color: grey;
+    height: 2px;
+}
+
+input,button{
+    font-size: small;
+    padding: 10px 15px;
+    background: #92bdf1;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 2px black;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+input:hover, input:focus {
+    background: #a3c3eb;
+    border: solid 2px white;
+    text-decoration: none;
+}
+
+input:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #19467c;
+    border: solid 1px #3a84d3;
+}
+
+footer > a {
+    color: pink;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../Images/Savin.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;  
+  position: relative;
+
+  
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
