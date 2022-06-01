@@ -1,4 +1,4 @@
-# Onlie-Movie-Ticket-Booking
+# Online-Movie-Ticket-Booking
 
 <p style="text-align: center;">&nbsp;</p>
 
